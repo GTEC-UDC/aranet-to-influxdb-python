@@ -1,0 +1,6 @@
+[DEFAULT]
+host=<InfluxDB host address>
+port=<InfluxDB port>
+org=<InfluxDB organization name>
+bucket=<InfluxDB bucket name>
+token=<InfluxDB token with write permissions>
