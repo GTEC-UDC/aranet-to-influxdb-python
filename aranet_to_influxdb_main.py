@@ -33,7 +33,7 @@ def main():
 
     # Settings for querying the sensor data from the Aranet Cloud
     from_time = "2022-02-01T12:00:00Z"
-    to_time = "2022-02-01T13:00:00Z"
+    to_time = "2022-02-01T12:20:00Z"
     timezone = "0000"
     metrics = list(aranet_cloud.METRICS_DICT.keys())
 
