@@ -99,7 +99,7 @@ where
 
 The included script `aranet_to_influxdb_main.py` uses the module [aranet-cloud](https://github.com/tombolano/aranet-cloud-python) to query the Aranet Cloud for one sensor data in a time range interval, and then uploads the data to InfluxDB.
 
-**Note:** By default the parameter `dry_run` is set to `True`, so no data will be written and instead it will be printed on the screen. Set this parameter to `False` to actually write the data to InfluxDB.
+**Note:** The parameter `dry_run` is set to `True`, so no data will be written and instead it will be printed on the screen. Set this parameter to `False` to actually write the data to InfluxDB.
 
 Considering the same example data shown in the Usage section for the `sensor_data` parameter, the output of the script (using `deduplicate_data = True` and `dry_run = True`) is the following:
 
